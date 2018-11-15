@@ -9,6 +9,6 @@ $ bash commandify.sh commandify.sh
 SUCCESS: commandify.sh installed to /usr/local/bin/commandify
 ```
 Arguments, all optional:
-  -f -- force, overwrite the existing command, if applicable
-  -n -- an alternate name you wish to use for the command (default is name of .sh file)
-  -p -- use specified path instead of default bin path
+  * -f -- force, overwrite the existing command, if applicable
+  * -n -- an alternate name you wish to use for the command (default is name of .sh file)
+  * -p -- use specified path instead of default bin path
