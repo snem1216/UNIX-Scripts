@@ -22,7 +22,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
     # Best location for Linux/BSD commands
     # ~/bin is typically already built into the user's $PATH
-    BIN="~/bin"
+    BIN=~/bin
 fi
 
 SOURCE_FILE_DIR=$( dirname $1)
@@ -70,7 +70,6 @@ fi
 
 if [ -a "$BIN/$SCRIPT_NAME" ]; then
     if [ $OVERWRITE = 0 ]; then
-            echo $OVERWRITE
             read -p "WARNING: $BIN/$SCRIPT_NAME already exists. Overwrite? [y/N] " y
             case $y in
                 [Yy]* ) 
