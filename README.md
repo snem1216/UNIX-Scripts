@@ -1,5 +1,5 @@
 # UNIX-Scripts
-A collection of useful bash scripts for UNIX operating systems (Linux, macOS, BSD)
+A collection of useful shell scripts for UNIX operating systems (Linux, macOS, BSD)
 
 ### Commandify
 A tool to install shell scripts (.sh) into a directory in your $PATH to make creating and updating custom commands easy and efficient.
